@@ -18,6 +18,11 @@ for(let i=0; i < message.length; i++) {
  message[i].addEventListener('click', function(){
   message[i].style.backgroundColor = 'white'
  })
+
+ markAll.addEventListener('click', function(){
+ document.querySelector('.not-no').textContent = 0;
+ message[i].style.backgroundColor = 'white'
+ })
 }
 
 const notificationDetails = document.querySelectorAll('.note');
@@ -38,10 +43,7 @@ for(let i=0; i < notificationDetails.length; i++) {
 
 
 
-markAll.addEventListener('click', function(){
- document.querySelector('.not-no').textContent = 0;
- notificationDetails.style.backgroundColor = 'grey'
- })
+
 
 
 
