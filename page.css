@@ -55,7 +55,6 @@ body {
  margin-left: -50px;
 }
 .img-icon {
-
  width: 50px;
  cursor: pointer;
 }
@@ -90,5 +89,31 @@ body {
 
 .chess {
  width: 8%;
+}
+
+@media (max-width: 375px) {
+  .notification-bar {
+    width: 100%;
+    margin: 0;
+    padding: 1em;
+  }
+  .message-right {
+    margin-left: 0px;
+  }
+  .message-right p {
+    font-size: .8rem;
+  }
+  .img-icon {
+    width: 40px;
+  }
+  .top {
+    font-size: .8rem;
+  }
+  .left-top {
+    font-size: 1rem;
+  }
+  .chess {
+    width: 13%;
+  }
 }
 
